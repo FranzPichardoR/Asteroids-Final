@@ -23,7 +23,7 @@ namespace Engine
 		, Time(0)
 		, RespawnTime(0)
 		, Score(0)
-		, CantAsteroides(1)
+		, CantAsteroides(5)
 	{
 		m_state = GameState::UNINITIALIZED;
 		m_lastFrameTime = m_timer->GetElapsedTimeInSeconds();

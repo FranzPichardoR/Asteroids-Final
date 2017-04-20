@@ -18,37 +18,11 @@ EnemyShip::EnemyShip()
 	, Angulo(0)
 	, PermitirDisparar(true)
 {
-	initShip2.push_back(Vector2(-7, 0));
-	initShip2.push_back(Vector2(-7, 11));
-	initShip2.push_back(Vector2(-5, 13));
-	initShip2.push_back(Vector2(-3, 14));
-	initShip2.push_back(Vector2(0, 15));
-	initShip2.push_back(Vector2(3, 14));
-	initShip2.push_back(Vector2(5, 12));
-	initShip2.push_back(Vector2(6, 11));
-	initShip2.push_back(Vector2(6, 0));
-	initShip2.push_back(Vector2(0, -2));
-	initShip2.push_back(Vector2(-7, 0));
-
-	initShip.push_back(Vector2(0, -8));
-	initShip.push_back(Vector2(8, -7));
-	initShip.push_back(Vector2(10, -6));
-	initShip.push_back(Vector2(15, -1));
-	initShip.push_back(Vector2(16, 0));
-	initShip.push_back(Vector2(13, 4));
-	initShip.push_back(Vector2(9, 7));
-	initShip.push_back(Vector2(6, 8));
-	initShip.push_back(Vector2(0, 8));
-	initShip.push_back(Vector2(-6, 8));
-	initShip.push_back(Vector2(-9, 7));
-	initShip.push_back(Vector2(-12, 5));
-	initShip.push_back(Vector2(-13, 4));
-	initShip.push_back(Vector2(-15, 2));
-	initShip.push_back(Vector2(-16, 0));
-	initShip.push_back(Vector2(-13, -4));
-	initShip.push_back(Vector2(-8, -7));
-	initShip.push_back(Vector2(-6, -8));
-	initShip.push_back(Vector2(0, -8));
+	initShip2.push_back(Vector2(0, 20.0));
+	initShip2.push_back(Vector2(12.0, -10.0));
+	initShip2.push_back(Vector2(6.0, -4.0));
+	initShip2.push_back(Vector2(-6.0, -4.0));
+	initShip2.push_back(Vector2(-12.0, -10.0));
 	
 	setPoint();
 	setRadioAl(Radio);

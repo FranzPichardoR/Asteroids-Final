@@ -1,5 +1,7 @@
-﻿  App.cpp
-  BoilerPlate.vcxproj -> C:\Users\Franz\Desktop\Uni\Asteroids\x64\Debug\BoilerPlate.exe
-  BoilerPlate.vcxproj -> C:\Users\Franz\Desktop\Uni\Asteroids\x64\Debug\BoilerPlate.pdb (Full PDB)
+﻿  EnemyShip.cpp
+c:\users\franz\desktop\asteroids-final\boilerplate\enemyship.cpp(85): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\franz\desktop\asteroids-final\boilerplate\enemyship.cpp(161): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  BoilerPlate.vcxproj -> C:\Users\Franz\Desktop\Asteroids-Final\x64\Debug\BoilerPlate.exe
+  BoilerPlate.vcxproj -> C:\Users\Franz\Desktop\Asteroids-Final\x64\Debug\BoilerPlate.pdb (Full PDB)
           1 file(s) copied.
           1 file(s) copied.
