@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SDLEvent.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="stb_image.c" />
+    <ClCompile Include="Asteroide.cpp">
+      <Filter>Entities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bala.cpp">
+      <Filter>Entities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Entities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShip.cpp">
+      <Filter>Entities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>Entities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Utilities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Utilities\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Utilities\Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp" />
+    <ClInclude Include="SDLEvent.hpp" />
+    <ClInclude Include="TimeManager.hpp" />
+    <ClInclude Include="Asteroide.h">
+      <Filter>Entities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShip.h">
+      <Filter>Entities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>Entities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Entities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bala.h">
+      <Filter>Entities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.hpp">
+      <Filter>Utilities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Utilities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Utilities\Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Utilities\Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{6f9fb37f-e47b-46c3-8209-dbf486018555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Source files">
+      <UniqueIdentifier>{0a3ec513-922c-4b14-83e3-98e1934fea74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Header files">
+      <UniqueIdentifier>{da8cc683-e66e-46b9-be58-7d0e16e23f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{5b0812e0-3cac-4d26-aa01-0fc2a48ee7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Header files">
+      <UniqueIdentifier>{b611a704-9e66-4d8b-97e8-1ecd5e1cea3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Source files">
+      <UniqueIdentifier>{1c2195c0-173d-4027-945c-9b495a62d91e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
